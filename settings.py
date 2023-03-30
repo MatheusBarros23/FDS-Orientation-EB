@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-yums1&2+3&rnh=9ta4rl#(6$fbh(1=#toi#$kr5uyfrkt7*!d7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fdsorientation-env.eba-bva3aap5.us-east-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['http://fdsorientation-env.eba-bva3aap5.us-east-2.elasticbeanstalk.com/']
 
 
 # Application definition
@@ -116,6 +116,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = 'static'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
